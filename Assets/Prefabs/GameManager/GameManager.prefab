@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2396141992531834637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2396141992531834626}
+  - component: {fileID: 2396141992531834627}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2396141992531834626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2396141992531834637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2396141992531834627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2396141992531834637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456b2c3ee3089410595d43217bbad332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  BG_Image: {fileID: 0}
+  BackGroundObj: {fileID: 0}
+  GroupEnemies: {fileID: 0}
+  EnemyWaveRate: 100
+  enemiesShapes: []
+  randomShape: 1
+  fixShapeIndex: 0
+  enemyPaths: []
+  randomPath: 1
+  fixPathIndex: 3
+  Obstacles: {fileID: 0}
+  MeteoritePrefab: {fileID: 1894899129428910613, guid: 8f0faee0a62164fbb9d3906078d7b7a5, type: 3}
+  MeteoriteGenSpeed: 0.25
+  maxInterval: 10
+  minInterval: 20
+  maxSize: 1
+  minSize: 0.25
+  CurMeteo: 0
+  Bosses:
+  - {fileID: 6942048902497390548, guid: f6aee61a2683d4ddfb4757c173d034dd, type: 3}
+  BossHealthBar: {fileID: 0}
+  isBossExist: 0
+  isBossDead: 0
+  PowerUpRate: 15
+  ChangeSpaceShipRate: 15
+  HealthRate: 10
+  MoneyRate: 50
+  ItemsPickUp:
+  - {fileID: 8596574348467543518, guid: aeb5460cb5029490498e16db45bf2607, type: 3}
+  - {fileID: 8596574348467543518, guid: 215db51b2280942fdbb53e02f0106d2e, type: 3}
+  - {fileID: 5402643037730568314, guid: 21045efbe2e7b48e1892a241ad13e6ec, type: 3}
+  SpaceShipList:
+  - {fileID: 21300000, guid: afc3fad27b7f1d84c8d171748e728f34, type: 3}
+  - {fileID: 21300000, guid: 374db6df0897a164ebdcbf68765f9316, type: 3}
+  - {fileID: 21300000, guid: f91b26e1366cd4f4eb53c61726f37443, type: 3}
+  - {fileID: 21300000, guid: d0ee9c3fd0646424f8c3fcbc1c074b5c, type: 3}
+  GameMusic: {fileID: 0}
+  UI_Canvas: {fileID: 0}
+  UI_Hubs: {fileID: 0}
+  Boudaries: {fileID: 0}
+  usingCustomLevel: 1
+  Level: {fileID: 11400000, guid: b439fe79bda3842bcab34d281d742616, type: 2}
+  waveNumber: 0
+  isSurvivalMode: 0
+  MaxwaveNumber: 10
+  BossEveryWave: 5
+  startNewWave: 0
+  statMultipler: 1
+  isStrongerEachWave: 0
+  targetFramRate: 60

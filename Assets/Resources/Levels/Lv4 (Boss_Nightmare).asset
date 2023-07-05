@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3495e0bf6d7d84f689966152ba74d438, type: 3}
+  m_Name: Lv4 (Boss_Nightmare)
+  m_EditorClassIdentifier: 
+  BG_Image: {fileID: 0}
+  isStrongerEachWave: 0
+  statMultipler: 3
+  MeteoriteGenSpeed: 0.25
+  maxInterval: 10
+  minInterval: 20
+  maxSize: 1
+  minSize: 0.25
+  WaveList:
+  - ObjectsForThisWave:
+    - {fileID: 6942048902497390548, guid: f6aee61a2683d4ddfb4757c173d034dd, type: 3}
+    enemiesShapes: []
+    enemyPathDatas: []
+  PowerUpRate: 15
+  ChangeSpaceShipRate: 15
+  HealthRate: 10
+  MoneyRate: 50

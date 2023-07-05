@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3495e0bf6d7d84f689966152ba74d438, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  BG_Image: {fileID: 0}
+  isStrongerEachWave: 0
+  statMultipler: 1
+  MeteoriteGenSpeed: 0.1
+  maxInterval: 10
+  minInterval: 20
+  maxSize: 1
+  minSize: 0.25
+  WaveList:
+  - ObjectsForThisWave:
+    - {fileID: 5084886850597167512, guid: aba3be5106dae45ec85ce1410bbf107e, type: 3}
+    - {fileID: 5998231719114684448, guid: acf9863c228a4431587c56c0b78d2801, type: 3}
+    - {fileID: 4735070882727734348, guid: 59e00aef58392441fbc327cdc160ec89, type: 3}
+    - {fileID: 7322892368918215231, guid: f0796cfb6fbd44a5cb0e51028110d48f, type: 3}
+    - {fileID: 3262757574416701891, guid: a57f443d1674e4f0ebdb9576b5c40bf9, type: 3}
+    - {fileID: 304452681310091646, guid: 1395249bd2b77408cb0a8292b2d715e3, type: 3}
+    enemiesShapes: []
+    enemyPathDatas: []
+  - ObjectsForThisWave:
+    - {fileID: 5084886850597167512, guid: aba3be5106dae45ec85ce1410bbf107e, type: 3}
+    - {fileID: 5998231719114684448, guid: acf9863c228a4431587c56c0b78d2801, type: 3}
+    - {fileID: 4735070882727734348, guid: 59e00aef58392441fbc327cdc160ec89, type: 3}
+    - {fileID: 7322892368918215231, guid: f0796cfb6fbd44a5cb0e51028110d48f, type: 3}
+    - {fileID: 3262757574416701891, guid: a57f443d1674e4f0ebdb9576b5c40bf9, type: 3}
+    - {fileID: 304452681310091646, guid: 1395249bd2b77408cb0a8292b2d715e3, type: 3}
+    enemiesShapes: []
+    enemyPathDatas: []
+  - ObjectsForThisWave:
+    - {fileID: 1894899129428910613, guid: 8f0faee0a62164fbb9d3906078d7b7a5, type: 3}
+    enemiesShapes: []
+    enemyPathDatas: []
+  - ObjectsForThisWave:
+    - {fileID: 5084886850597167512, guid: aba3be5106dae45ec85ce1410bbf107e, type: 3}
+    - {fileID: 5998231719114684448, guid: acf9863c228a4431587c56c0b78d2801, type: 3}
+    - {fileID: 4735070882727734348, guid: 59e00aef58392441fbc327cdc160ec89, type: 3}
+    - {fileID: 7322892368918215231, guid: f0796cfb6fbd44a5cb0e51028110d48f, type: 3}
+    - {fileID: 3262757574416701891, guid: a57f443d1674e4f0ebdb9576b5c40bf9, type: 3}
+    - {fileID: 304452681310091646, guid: 1395249bd2b77408cb0a8292b2d715e3, type: 3}
+    enemiesShapes: []
+    enemyPathDatas: []
+  - ObjectsForThisWave:
+    - {fileID: 6942048902497390548, guid: f6aee61a2683d4ddfb4757c173d034dd, type: 3}
+    enemiesShapes: []
+    enemyPathDatas: []
+  - ObjectsForThisWave:
+    - {fileID: 6942048902497390548, guid: f6aee61a2683d4ddfb4757c173d034dd, type: 3}
+    enemiesShapes: []
+    enemyPathDatas: []
+  PowerUpRate: 15
+  ChangeSpaceShipRate: 15
+  HealthRate: 10
+  MoneyRate: 50
